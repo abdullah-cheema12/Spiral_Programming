@@ -193,7 +193,7 @@
 }
 
 .style-con-input:focus {
-    border: 2px solid #121f2e !important;
+    border: 2px solid #e9b833 !important;
     outline: none !important;
 }
 
@@ -227,7 +227,9 @@
 .style-send-button:focus {
     outline: none !important;
 }
-
+.style-send-button:hover {
+    color: #e9b833 !important;
+}
 .style-con-input::placeholder {
     text-transform: capitalize;
 }
