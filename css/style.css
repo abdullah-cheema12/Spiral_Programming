@@ -1,7 +1,13 @@
 @import url(fonts.css);
 @import url(predefine-classes.css);
 @import url(mediaqurey.css);
-
+body::-webkit-scrollbar{
+    background: #121f2e;
+    width: 1rem;
+}body::-webkit-scrollbar-thumb{
+background-color: #e9b833;
+border-radius: 20px;
+}
 .logo{
     width: 13rem;
     height: auto;
