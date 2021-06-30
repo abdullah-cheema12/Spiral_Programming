@@ -1,76 +1,90 @@
 @import url(fonts.css);
 @import url(predefine-classes.css);
 @import url(mediaqurey.css);
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     background: #121f2e;
     width: 1rem;
-}body::-webkit-scrollbar-thumb{
-background-color: #e9b833;
-border-radius: 20px;
 }
-.logo{
+
+body::-webkit-scrollbar-thumb {
+    background-color: #e9b833;
+    border-radius: 20px;
+}
+
+.logo {
     width: 13rem;
     height: auto;
 }
-#bg-1{
+
+#bg-1 {
     background-image: url(../images/slide-1.svg);
 }
-#bg-2{
+
+#bg-2 {
     background-image: url(../images/slide-2.svg);
 }
-#bg-3{
+
+#bg-3 {
     background-image: url(../images/slide-3.svg);
 }
-.style-dots{
 
+.style-dots {
     background-color: #ffe399 !important;
     width: 1.2rem !important;
     height: 1.2rem !important;
     border-radius: 50%;
     border: 3px solid #121f2e !important;
-
 }
-.carousel-indicators .active{
+
+.carousel-indicators .active {
     background-color: #e9b833 !important;
 }
-.style-header{
+
+.style-header {
     position: absolute;
     top: 0px !important;
     z-index: 100;
 }
-.style-about-para{
+
+.style-about-para {
     padding-left: 5rem;
     padding-right: 5rem;
     font-size: 13px;
-
 }
-.style-slogan{
+
+.style-slogan {
     word-spacing: 1px;
     letter-spacing: 0.3px;
 }
-.style-ser-icon{
+
+.style-ser-icon {
     width: 1.5rem !important;
     height: 1.5rem !important;
     background-color: #121f2e;
     border-radius: 50%;
 }
-.style-icon{
+
+.style-icon {
     color: #fff;
     font-size: 10px;
 }
-.style-para{
+
+.style-para {
     padding-left: 2.6rem;
 }
 
-.style-border:hover{
+.style-border:hover {
     border-color: #121f2e;
 }
-.style-ser-head{
+
+.style-ser-head {
     font-weight: 600;
 }
-.bg-ser{
+
+.bg-ser {
     background-image: url(../images/map_img.png);
 }
+
 /* .main-content{
     border: 1px solid #fff;
 }
@@ -78,100 +92,119 @@ border-radius: 20px;
     border: 1px solid #121f2e;
 } */
 
-.process-icon{
+.process-icon {
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
     background-color: rgb(167, 167, 167);
 }
-.main-content:hover .process-icon{
+
+.main-content:hover .process-icon {
     background-color: #121f2e;
 }
-.main-content:hover .fas{
+
+.main-content:hover .fas {
     color: #fafafa;
 }
+
 #testimonal-1 {
     background-image: url(../images/profilespics/person_1.jpg);
 }
+
 #testimonal-2 {
     background-image: url(../images/profilespics/person_2.jpg);
 }
+
 #testimonal-3 {
     background-image: url(../images/profilespics/person_3.jpg);
 }
+
 .style-testimonals-pic {
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
 }
-.person{
+
+.person {
     width: 8rem;
     height: auto;
     border-radius: 50%;
 }
-.carousel-control-prev{
+
+.carousel-control-prev {
     width: 2rem;
     height: 2rem;
-
     left: 65rem;
 }
-.carousel-control-next{
+
+.carousel-control-next {
     width: 2rem;
     height: 2rem;
-
 }
 
 .style-ul {
     list-style: none;
     margin-bottom: 0!important;
 }
-.style-footer{
+
+.style-footer {
     background-color: #121f2e;
 }
-.style-link{
+
+.style-link {
     text-decoration: none !important;
 }
-.style-btn{
+
+.style-btn {
     border: 0px !important;
     outline: none !important;
     font-weight: 600;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.form-control{
+
+.form-control {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
 .style-ul {
     list-style: none;
     margin-bottom: 0!important;
 }
-.style-soc-icon{
+
+.style-soc-icon {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
     /* background-color: #ff0000; */
 }
 
-.style-soc-icon{
+.style-soc-icon {
     font-size: 1.3rem;
 }
-.fa-facebook-f{
+
+.fa-facebook-f {
     background-color: #3b5998;
 }
-.fa-instagram{
-    background: radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%);
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
-.fa-twitter{
+
+.fa-twitter {
     background-color: #00acee;
 }
-.style-hr{
-    height: 2px ;
+
+.style-hr {
+    height: 2px;
     width: 100%;
 }
-.bg-contact{
+
+.bg-contact {
     background-image: url(../images/bg-contct.jpg);
 }
+
 .style-con-icon {
     width: 60px;
     height: 60px;
@@ -233,18 +266,21 @@ border-radius: 20px;
 .style-send-button:focus {
     outline: none !important;
 }
+
 .style-send-button:hover {
     color: #e9b833 !important;
 }
+
 .style-con-input::placeholder {
     text-transform: capitalize;
 }
+
 @media screen and (max-width: 567px) {
-    .style-about-para{
+    .style-about-para {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    .style-top-heading{
+    .style-top-heading {
         font-size: 2rem;
     }
 }
